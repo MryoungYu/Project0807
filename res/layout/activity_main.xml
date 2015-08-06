@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60px"
+        android:gravity="center"
+        android:text="小 龙 巴 士" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:gravity="center"
+        android:text="司机客户端" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:gravity="center"
+        android:text="V1.0.2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30px"
+            android:width="120dp"
+            android:gravity="center"
+            android:text="司机手机号" />
+
+        <EditText
+            android:id="@+id/et_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="30px"
+             android:width="120dp"
+             android:gravity="center"
+            android:text="验证码" />
+
+        <EditText
+            android:id="@+id/et_ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+             android:textSize="30px"
+             android:gravity="center"
+              android:width="120dp"
+            android:layout_height="wrap_content"
+            android:text="登陆" />
+
+        <Button
+            android:id="@+id/bt_getRam"
+            android:layout_width="wrap_content"
+             android:textSize="30px"
+             android:gravity="center"
+             android:width="150dp"
+             android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="发送验证码" />
+
+    </LinearLayout>
+
+</LinearLayout>
